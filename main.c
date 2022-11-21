@@ -21,7 +21,7 @@ int numberOfMinorColors =
 typedef struct {
     enum MajorColor majorColor;
     enum MinorColor minorColor;
-} ColorPair; */
+} ColorPair; 
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer) {
     sprintf(buffer, "%s %s",
@@ -67,7 +67,7 @@ void testPairToNumber(
     int pairNumber = GetPairNumberFromColor(&colorPair);
     printf("Got pair number %d\n", pairNumber);
     assert(pairNumber == expectedPairNumber);
-}
+} */
 
 int main() {
     testNumberToPair(4, WHITE, BROWN);
