@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <assert.h>
 
-enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
+#include <MajorColor.c>
+#include <MinorColor.c>
+
+/*enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
 
 const char* MajorColorNames[] = {
@@ -19,7 +22,7 @@ int numberOfMinorColors =
 typedef struct {
     enum MajorColor majorColor;
     enum MinorColor minorColor;
-} ColorPair;
+} ColorPair; */
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer) {
     sprintf(buffer, "%s %s",
