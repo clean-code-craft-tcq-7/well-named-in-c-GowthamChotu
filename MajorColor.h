@@ -1,5 +1,3 @@
-//#include <assert.h>
-
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 
 const char* MajorColorNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
