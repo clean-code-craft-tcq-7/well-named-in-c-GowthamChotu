@@ -2,6 +2,9 @@
 #include <assert.h>
 
 #include <Major_and_Minor.h>
+#include <Extract.c>
+#include <Convert.c>
+
 
 /*enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
