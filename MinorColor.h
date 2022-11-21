@@ -1,5 +1,3 @@
-//#include <assert.h>
-
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
 
 const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
