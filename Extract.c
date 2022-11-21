@@ -1,3 +1,5 @@
+#include <Major_and_Minor.h>
+
 ColorPair GetColorFromPairNumber(int pairNumber) {
     ColorPair colorPair;
     int zeroBasedPairNumber = pairNumber - 1;
