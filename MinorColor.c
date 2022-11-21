@@ -1,4 +1,4 @@
-#include <assert.h>
+//#include <assert.h>
 
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
 
