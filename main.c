@@ -13,9 +13,9 @@ int main() {
     testPairToNumber(VIOLET, SLATE, 25);
     
     
-    for(int i=0; i<numberOfMajorColors;i++)
+    for(int i=1; i<=numberOfMajorColors;i++)
     {
-        for(int j=0; j<numberOfMinorColors; j++)
+        for(int j=1; j<=numberOfMinorColors; j++)
         {
             //ColorPair colorPair = GetColorFromPairNumber(i);
             //char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
