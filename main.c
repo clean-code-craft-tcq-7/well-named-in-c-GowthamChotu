@@ -20,7 +20,7 @@ int main() {
         //{
             k++;
             printf("Pair Number %d is ",k);
-            printf("&s",(enum MajorColor)(i));
+            printf("%s",(enum MajorColor)(i));
             //testNumberToPair(i, (enum MajorColor)(i), (enum MinorColor)(i));
             //testPairToNumber((enum MajorColor)(i), (enum MinorColor)(j), 12);
             
