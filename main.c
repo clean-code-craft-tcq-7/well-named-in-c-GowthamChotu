@@ -19,14 +19,9 @@ int main() {
         for(int j=1; j<=numberOfMinorColors; j++)
         {
             k++;
-            //ColorPair colorPair = GetColorFromPairNumber(i);
-            //char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
-            //ColorPairToString(&colorPair, colorPairNames);
-            //printf("Pair Number %d is %s\n", i+j,colorPairNames);
-            //printf("Pair Number %d is %s and %s\n" i, 
             printf("Pair Number %d is ",k);
-            testNumberToPair(k, (enum MajorColor)(i), (enum MinorColor)(j));
-            
+            //testNumberToPair(k, (enum MajorColor)(i), (enum MinorColor)(j));
+            testPairToNumber((enum MajorColor)(i), (enum MinorColor)(j), 12);
             
         }
         
