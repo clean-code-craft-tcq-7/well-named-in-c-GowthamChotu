@@ -18,10 +18,9 @@ int main() {
     {
         for(int j=1; j<=numberOfMinorColors; j++)
         {
-            //k++;
-            printf("Pair Number %d is ",k);
-            testNumberToPair(i+k, (enum MajorColor)(i), (enum MinorColor)(j));
             k++;
+            printf("Pair Number %d is ",k);
+            testNumberToPair(i, (enum MajorColor)(i), (enum MinorColor)(j));
             //testPairToNumber((enum MajorColor)(i), (enum MinorColor)(j), 12);
             
         }
