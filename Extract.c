@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <assert.h>
+
 #include "Major_and_Minor.h"
 
 ColorPair GetColorFromPairNumber(int pairNumber) {
