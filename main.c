@@ -18,6 +18,5 @@ int main() {
     Print_Reference_Manual();
     printf("****************************************************");
     
-    
     return 0;
 }
