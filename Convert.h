@@ -30,15 +30,18 @@ void testPairToNumber(
     assert(pairNumber == expectedPairNumber);
 }
 
+#define Total_Pairs 25;
+
 void Print_Reference_Manual()
 {
     int k=0;
- for(int i=1; i<=Total_Pairs;i++)
-        {
-          k++;
+    for(int i=1; i<=Total_Pairs;i++)
+       {
+            k++;
             ColorPair colorPair = GetColorFromPairNumber(i);
             char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
             ColorPairToString(&colorPair, colorPairNames);
             printf("Pair Number %d is %s\n", k, colorPairNames); 
-  }
+        }
+}
 
