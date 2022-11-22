@@ -23,7 +23,7 @@ int main() {
             //printf("Pair Number %d is %s\n", i+j,colorPairNames);
             //printf("Pair Number %d is %s and %s\n" i, 
             
-            testNumberToPair(6, WHITE, BROWN);
+            testNumberToPair(4, WHITE, BROWN);
             
             
         }
