@@ -14,16 +14,16 @@ int main() {
     
     
     int k=0;
-    for(int i=1; i<=numberOfMajorColors;i++)
+    for(int i=1; i<=25;i++)
     {
-        for(int j=1; j<=numberOfMinorColors; j++)
-        {
+        //for(int j=1; j<=numberOfMinorColors; j++)
+        //{
             k++;
             printf("Pair Number %d is ",k);
-            testNumberToPair(i, (enum MajorColor)(i), (enum MinorColor)(j));
+            testNumberToPair(i, (enum MajorColor)(i), (enum MinorColor)(i));
             //testPairToNumber((enum MajorColor)(i), (enum MinorColor)(j), 12);
             
-        }
+        //}
         
     }
 
