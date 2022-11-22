@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <assert.h>
-
 #include "Major_and_Minor.h"
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer) {
