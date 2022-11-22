@@ -1,7 +1,7 @@
-//#include <stdio.h>
-//#include <assert.h>
+#include <stdio.h>
+#include <assert.h>
 
-#include "Extract.c"
+#include "Extract.h"
 #include "Convert.c"
 
 int main() {
