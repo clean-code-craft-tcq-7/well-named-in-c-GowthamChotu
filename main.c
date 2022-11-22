@@ -25,7 +25,7 @@ int main() {
             //printf("Pair Number %d is %s\n", i+j,colorPairNames);
             //printf("Pair Number %d is %s and %s\n" i, 
             printf("Pair Number %d is ",k);
-            testNumberToPair(4, WHITE, BROWN);
+            testNumberToPair(k, (enum MajorColor)(i),(enum MinorColor)(j);
             
             
         }
