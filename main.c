@@ -11,7 +11,8 @@ int main() {
 
     testPairToNumber(BLACK, ORANGE, 12);
     testPairToNumber(VIOLET, SLATE, 25);
-    
+
     //ColorPairToString(WHITE, 1)
+    
     return 0;
 }
