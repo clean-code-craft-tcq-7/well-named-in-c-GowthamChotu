@@ -35,7 +35,7 @@ void testPairToNumber(
 void Print_Reference_Manual()
 {
     int k=0;
-    for(int i=1; i<=Total_Pairs; i++)
+    for(int i=1; i<=25; i++)
        {
             k++;
             ColorPair colorPair = GetColorFromPairNumber(i);
