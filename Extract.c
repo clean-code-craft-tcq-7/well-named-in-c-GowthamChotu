@@ -1,4 +1,4 @@
-//#include <Major_and_Minor.h>
+#include <Major_and_Minor.h>
 
 ColorPair GetColorFromPairNumber(int pairNumber) {
     ColorPair colorPair;
