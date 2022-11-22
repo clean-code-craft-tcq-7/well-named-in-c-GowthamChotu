@@ -23,7 +23,7 @@ int main() {
             ColorPair colorPair = GetColorFromPairNumber(i);
             char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
             ColorPairToString(&colorPair, colorPairNames);
-            printf("Got pair %s\n", colorPairNames);
+            printf("Pair Number %d is %s\n", k, colorPairNames);
             //testNumberToPair(i, (enum MajorColor)(i), (enum MinorColor)(i));
             //testPairToNumber((enum MajorColor)(i), (enum MinorColor)(j), 12);
             
