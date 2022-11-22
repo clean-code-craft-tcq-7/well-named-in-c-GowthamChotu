@@ -19,6 +19,7 @@ int main() {
         {
             ColorPair colorPair = GetColorFromPairNumber(i);
             char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
+            ColorPairToString(&colorPair, colorPairNames);
             printf("Pair Number %d is %s\n", i+j,colorPairNames);
             //printf("Pair Number %d is %s and %s\n" i, 
         }
