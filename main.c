@@ -22,7 +22,7 @@ int main() {
             //ColorPairToString(&colorPair, colorPairNames);
             //printf("Pair Number %d is %s\n", i+j,colorPairNames);
             //printf("Pair Number %d is %s and %s\n" i, 
-            
+            printf("Pair Number %d is",i)
             testNumberToPair(4, WHITE, BROWN);
             
             
