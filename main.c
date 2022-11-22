@@ -2,7 +2,7 @@
 #include <assert.h>
 
 #include "Extract.h"
-#include "Convert.c"
+#include "Convert.h"
 
 int main() {
     
