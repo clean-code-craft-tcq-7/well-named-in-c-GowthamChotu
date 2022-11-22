@@ -12,8 +12,11 @@ int main() {
     testPairToNumber(BLACK, ORANGE, 12);
     testPairToNumber(VIOLET, SLATE, 25);
     
+    printf("****************************************************");
     printf("Details of Color Coding Are As Follows:\n");
+    printf("****************************************************");
     Print_Reference_Manual();
+    printf("****************************************************");
     
     
     return 0;
