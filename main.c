@@ -17,11 +17,15 @@ int main() {
     {
         for(int j=0; j<numberOfMinorColors; j++)
         {
-            ColorPair colorPair = GetColorFromPairNumber(i);
-            char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
-            ColorPairToString(&colorPair, colorPairNames);
-            printf("Pair Number %d is %s\n", i+j,colorPairNames);
+            //ColorPair colorPair = GetColorFromPairNumber(i);
+            //char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
+            //ColorPairToString(&colorPair, colorPairNames);
+            //printf("Pair Number %d is %s\n", i+j,colorPairNames);
             //printf("Pair Number %d is %s and %s\n" i, 
+            
+            testNumberToPair((i+j), WHITE, BROWN);
+            
+            
         }
         
     }
